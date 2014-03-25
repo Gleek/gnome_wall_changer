@@ -1,7 +1,7 @@
-gnome_wall_changer
-==================
+Gnome Wallpaper Automater
+=========================
 
-Changes the current gnome-desktop wallpaper after specified time
+Changes the current gnome desktop wallpaper automatically, after specified time
 
 ###Usage###
 - start file_choose.sh 
