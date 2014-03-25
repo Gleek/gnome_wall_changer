@@ -1,1 +1,1 @@
-@hourly /home/umar/Dev/Scripts/wallchange/wall_change.sh /run/media/umar/2C3875B138757AA2/Users/WELCOME/Pictures/wallpapers
+*/1 * * * * '/home/umar/Dev/Scripts/wallchange/wall_change.sh /run/media/umar/2C3875B138757AA2/Users/WELCOME/Pictures/wallpapers'

@@ -7,8 +7,8 @@ Changes the current gnome-desktop wallpaper after specified time
 - start file_choose.sh 
 - choose file
   - wallpaper would be changed randomly based on directory (Error Occurs if path not found)
-  - Entry added in cron
--Enjoy
+  - Entry added in cron.
+- Enjoy
 
 ###Files###
 
@@ -20,3 +20,8 @@ Changes the current gnome-desktop wallpaper after specified time
 
 ####wallpaper fades but doesn't change####
 Try increasing the sleep time in wall_change.sh
+
+####Cron Doesn't Work Correctly ####
+Couldn't make cron work for now using sleep instead
+If you know how to set cron check the file_choose.sh
+or you can use any other cron service to start "wall_change.sh /path/of/wallpaper/directory"
